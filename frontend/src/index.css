@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Small customizations */
+:root {
+  --troway-green: #16a34a;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: white;
+}
+
+/* hero overlay text style */
+.hero-title {
+  text-shadow: 0 6px 18px rgba(0,0,0,0.35);
+}
